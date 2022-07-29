@@ -27,22 +27,24 @@ int main( int argc, char *argv[] ) {
   insert(-1);
 
   while (itemCount != 0) {
+   printf("\n");
     int num = removeData();
-    //printf("Element removed: %d\n",num);
     if (num == -1) {
       strcat(indent, "\t");
       insert(-1);
       num = removeData();
+      if (itemCount == 0) {
+         exit(1);
+      }
     }
     char snum[6];
     sprintf(snum, "%d", num);
     setParentId(snum);
-    //printf("Filepath is %s", fileName);
     
     FILE* file = fopen (fileName, "r");
     int i = 0;
 
-    printf("\n%sChildren of %s: ", indent, parentId);
+    printf("%sChildren of %s: ", indent, parentId);
     fscanf (file, "%d", &i);    
     while (!feof (file))
     {  
