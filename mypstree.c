@@ -129,7 +129,9 @@ void setProcPath() {
    char task[] = "/task/";
    char children[] = "/children";
 
-   sprintf(fileName, "%s", "");
+   sprintf(fileName, "%s", ""); //reset file name
+
+   //concatenate that file path in the appropriate order
    strcat(fileName, proc);
    strcat(fileName, parentId);
    strcat(fileName, task);
