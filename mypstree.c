@@ -1,5 +1,5 @@
 /*
-Author: Reis Ciaramitaro
+Author: Reis Ciaramitaro & Jeremiah Thompson
 Assignment Number: 1
 Date of Submission: 7/30/2022
 Name of this file: mypstree.c
@@ -23,6 +23,7 @@ void setParentId(char * id);
 void setProcPath();
 void insert(int data);
 int removeData();
+bool doesProcessExist(char * id);
 
 //declare global variables used for traversal
 char parentId[5];
@@ -46,14 +47,44 @@ Brief description of the task:
 void main( int argc, char *argv[] ) {
    int MARKER = -1;
 
-  if (argc < 2) {
-    printf ("You must supply a parent ID\n");
-    exit(1);
-  }
-  insert(atoi(argv[1])); //insert the root parent into queue as an integer
-  insert(MARKER); 
-  traverseParent();
+   if (argc < 2) {
+      printf ("You must supply a parent ID\n");
+      exit(404);
+   }
 
+   //traverse the root only if process exists 
+   if (doesProcessExist(argv[1])) {
+      insert(atoi(argv[1])); //insert the root parent into queue as an integer
+      insert(MARKER); 
+      traverseParent(); //traverse the parent
+   }
+   else {
+      printf("The root process doesn't exist.\n");
+   }
+
+}
+
+/*
+Function Name: doesProcessExist
+Input to the method: The input of the root parent id is required
+Output(Return value): This method returns a true or false
+Brief description of the task:
+   This method returns whether the inputted root process 
+   exists or not.
+*/
+bool doesProcessExist(char * id) {
+   sprintf(fileName, "%s", ""); //reset file name
+
+   //concatenate that file path in the appropriate order
+   strcat(fileName, "/proc/");
+   strcat(fileName, id);
+
+   FILE* file = fopen (fileName, "r");
+
+   if(file == NULL) {
+      return false;
+   }
+   return true;
 }
 
 /*
