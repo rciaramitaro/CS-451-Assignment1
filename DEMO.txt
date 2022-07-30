@@ -1,1 +1,354 @@
+Test 1 -> Using Input of 1 for "mypstree" 
+Input: ./mypstree 1
+Output:
 
+Children of 1: 411 450 856 860 893 894 897 898 901 903 905 906 911 914 916 920 923 925 931 932 934 960 970 1007 1013 1047 1052 1056 1088 1186 1482 1517 1533 
+        Children of 411: 
+        Children of 450: 
+        Children of 856: 
+        Children of 860: 
+        Children of 893: 
+        Children of 894: 
+        Children of 897: 943 
+        Children of 898: 
+        Children of 901: 
+        Children of 903: 
+        Children of 905: 
+        Children of 906: 
+        Children of 911: 
+        Children of 914: 
+        Children of 916: 
+        Children of 920: 
+        Children of 923: 
+        Children of 925: 
+        Children of 931: 
+        Children of 932: 
+        Children of 934: 
+        Children of 960: 
+        Children of 970: 
+        Children of 1007: 
+        Children of 1013: 1510 
+        Children of 1047: 
+        Children of 1052: 
+        Children of 1056: 
+        Children of 1088: 
+        Children of 1186: 
+        Children of 1482: 
+        Children of 1517: 1518 1523 1525 1528 1538 1554 1561 1569 1573 1584 1590 1594 1598 1714 1725 1732 1746 1775 1778 1790 1794 1805 1816 1796 1815 1827 1844 1867 1868 1869 1871 1873 1875 1877 1878 1879 1881 1882 1883 1903 1911 1913 1919 1924 1955 2021 2050 2149 2153 3022 3972 12854 13533 
+        Children of 1533: 
+                Children of 943: 
+                Children of 1510: 1608 
+                Children of 1518: 
+                Children of 1523: 
+                Children of 1525: 
+                Children of 1528: 
+                Children of 1538: 1854 
+                Children of 1554: 
+                Children of 1561: 
+                Children of 1569: 
+                Children of 1573: 
+                Children of 1584: 
+                Children of 1590: 
+                Children of 1594: 
+                Children of 1598: 
+                Children of 1714: 1719 
+                Children of 1725: 
+                Children of 1732: 1916 1953 3025 
+                Children of 1746: 1768 10179 
+                Children of 1775: 
+                Children of 1778: 
+                Children of 1790: 
+                Children of 1794: 
+                Children of 1805: 
+                Children of 1816: 
+                Children of 1796: 
+                Children of 1815: 
+                Children of 1827: 
+                Children of 1844: 
+                Children of 1867: 
+                Children of 1868: 
+                Children of 1869: 
+                Children of 1871: 
+                Children of 1873: 
+                Children of 1875: 
+                Children of 1877: 
+                Children of 1878: 
+                Children of 1879: 
+                Children of 1881: 
+                Children of 1882: 
+                Children of 1883: 
+                Children of 1903: 
+                Children of 1911: 
+                Children of 1913: 
+                Children of 1919: 
+                Children of 1924: 
+                Children of 1955: 
+                Children of 2021: 
+                Children of 2050: 
+                Children of 2149: 
+                Children of 2153: 
+                Children of 3022: 
+                Children of 3972: 
+                Children of 12854: 12856 12857 13382 
+                Children of 13533: 
+                        Children of 1608: 1610 1630 
+                        Children of 1854: 
+                        Children of 1719: 
+                        Children of 1916: 
+                        Children of 1953: 
+                        Children of 3025: 
+                        Children of 1768: 1772 1773 1956 
+                        Children of 10179: 10263 10264 
+                        Children of 12856: 13010 
+                        Children of 12857: 
+                        Children of 13382: 13442 13482 
+                                Children of 1610: 
+                                Children of 1630: 1697 
+                                Children of 1772: 
+                                Children of 1773: 
+                                Children of 1956: 
+                                Children of 10263: 10289 
+                                Children of 10264: 10266 
+                                Children of 13010: 
+                                Children of 13442: 
+                                Children of 13482: 
+                                        Children of 1697: 
+                                        Children of 10289: 10349 
+                                        Children of 10266: 10301 10551 10557 10579 10586 10619 10633 10659 11192 12110 12127 12209 12298 12340 
+                                                Children of 10349: 
+                                                Children of 10301: 
+                                                Children of 10551: 
+                                                Children of 10557: 
+                                                Children of 10579: 
+                                                Children of 10586: 
+                                                Children of 10619: 
+                                                Children of 10633: 
+                                                Children of 10659: 
+                                                Children of 11192: 
+                                                Children of 12110: 
+                                                Children of 12127: 
+                                                Children of 12209: 
+                                                Children of 12298: 
+                                                Children of 12340: 
+
+Test 2: Using an input of 2 for "mypstree"
+Input: ./mypstree 2
+Output:
+
+Children of 2: 3 4 5 7 10 11 12 13 14 15 16 17 18 19 20 21 23 24 25 26 27 29 30 31 32 33 35 36 37 38 39 41 42 43 44 45 47 48 49 50 54 55 56 57 58 59 106 107 108 110 111 112 113 114 115 117 119 120 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 153 154 155 157 159 160 161 162 164 165 166 167 180 183 188 193 215 248 249 250 256 257 258 259 260 261 262 263 264 265 266 267 268 269 270 271 272 273 274 275 276 277 278 279 280 281 282 283 284 285 286 287 288 289 290 291 292 293 294 295 296 297 298 299 300 301 302 303 304 305 306 307 308 309 310 311 312 313 314 315 342 343 345 347 370 371 428 516 517 522 523 524 525 526 527 528 529 544 613 1577 5395 6823 7180 7196 7846 11750 11872 11917 11976 11983 11984 11996 11997 12150 12174 12394 12794 13322 13325 13326 13343 13496 13501 
+        Children of 3: 
+        Children of 4: 
+        Children of 5: 
+        Children of 7: 
+        Children of 10: 
+        Children of 11: 
+        Children of 12: 
+        Children of 13: 
+        Children of 14: 
+        Children of 15: 
+        Children of 16: 
+        Children of 17: 
+        Children of 18: 
+        Children of 19: 
+        Children of 20: 
+        Children of 21: 
+        Children of 23: 
+        Children of 24: 
+        Children of 25: 
+        Children of 26: 
+        Children of 27: 
+        Children of 29: 
+        Children of 30: 
+        Children of 31: 
+        Children of 32: 
+        Children of 33: 
+        Children of 35: 
+        Children of 36: 
+        Children of 37: 
+        Children of 38: 
+        Children of 39: 
+        Children of 41: 
+        Children of 42: 
+        Children of 43: 
+        Children of 44: 
+        Children of 45: 
+        Children of 47: 
+        Children of 48: 
+        Children of 49: 
+        Children of 50: 
+        Children of 54: 
+        Children of 55: 
+        Children of 56: 
+        Children of 57: 
+        Children of 58: 
+        Children of 59: 
+        Children of 106: 
+        Children of 107: 
+        Children of 108: 
+        Children of 110: 
+        Children of 111: 
+        Children of 112: 
+        Children of 113: 
+        Children of 114: 
+        Children of 115: 
+        Children of 117: 
+        Children of 119: 
+        Children of 120: 
+        Children of 122: 
+        Children of 123: 
+        Children of 124: 
+        Children of 125: 
+        Children of 126: 
+        Children of 127: 
+        Children of 128: 
+        Children of 129: 
+        Children of 130: 
+        Children of 131: 
+        Children of 132: 
+        Children of 133: 
+        Children of 134: 
+        Children of 135: 
+        Children of 136: 
+        Children of 137: 
+        Children of 138: 
+        Children of 139: 
+        Children of 140: 
+        Children of 141: 
+        Children of 142: 
+        Children of 143: 
+        Children of 144: 
+        Children of 145: 
+        Children of 146: 
+        Children of 147: 
+        Children of 148: 
+        Children of 149: 
+        Children of 150: 
+        Children of 151: 
+        Children of 153: 
+        Children of 154: 
+        Children of 155: 
+        Children of 157: 
+        Children of 159: 
+        Children of 160: 
+        Children of 161: 
+        Children of 162: 
+        Children of 164: 
+        Children of 165: 
+        Children of 166: 
+        Children of 167: 
+        Children of 180: 
+        Children of 183: 
+        Children of 188: 
+        Children of 193: 
+        Children of 215: 
+        Children of 248: 
+        Children of 249: 
+        Children of 250: 
+        Children of 256: 
+        Children of 257: 
+        Children of 258: 
+        Children of 259: 
+        Children of 260: 
+        Children of 261: 
+        Children of 262: 
+        Children of 263: 
+        Children of 264: 
+        Children of 265: 
+        Children of 266: 
+        Children of 267: 
+        Children of 268: 
+        Children of 269: 
+        Children of 270: 
+        Children of 271: 
+        Children of 272: 
+        Children of 273: 
+        Children of 274: 
+        Children of 275: 
+        Children of 276: 
+        Children of 277: 
+        Children of 278: 
+        Children of 279: 
+        Children of 280: 
+        Children of 281: 
+        Children of 282: 
+        Children of 283: 
+        Children of 284: 
+        Children of 285: 
+        Children of 286: 
+        Children of 287: 
+        Children of 288: 
+        Children of 289: 
+        Children of 290: 
+        Children of 291: 
+        Children of 292: 
+        Children of 293: 
+        Children of 294: 
+        Children of 295: 
+        Children of 296: 
+        Children of 297: 
+        Children of 298: 
+        Children of 299: 
+        Children of 300: 
+        Children of 301: 
+        Children of 302: 
+        Children of 303: 
+        Children of 304: 
+        Children of 305: 
+        Children of 306: 
+        Children of 307: 
+        Children of 308: 
+        Children of 309: 
+        Children of 310: 
+        Children of 311: 
+        Children of 312: 
+        Children of 313: 
+        Children of 314: 
+        Children of 315: 
+        Children of 342: 
+        Children of 343: 
+        Children of 345: 
+        Children of 347: 
+        Children of 370: 
+        Children of 371: 
+        Children of 428: 
+        Children of 516: 
+        Children of 517: 
+        Children of 522: 
+        Children of 523: 
+        Children of 524: 
+        Children of 525: 
+        Children of 526: 
+        Children of 527: 
+        Children of 528: 
+        Children of 529: 
+        Children of 544: 
+        Children of 613: 
+        Children of 1577: 
+        Children of 5395: 
+        Children of 6823: 
+        Children of 7180: 
+        Children of 7196: 
+        Children of 7846: 
+        Children of 11750: 
+        Children of 11872: 
+        Children of 11917: 
+        Children of 11976: 
+        Children of 11983: 
+        Children of 11984: 
+        Children of 11996: 
+        Children of 11997: 
+        Children of 12150: 
+        Children of 12174: 
+        Children of 12394: 
+        Children of 12794: 
+        Children of 13322: 
+        Children of 13325: 
+        Children of 13326: 
+        Children of 13343: 
+        Children of 13496: 
+        Children of 13501: 
+
+Test 3: Using an input of 1,000,000 for "mypstree"
+Input: ./mypstree 1000000
+Output: 
+The root process doesn't exist.
